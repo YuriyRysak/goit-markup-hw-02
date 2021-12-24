@@ -1,32 +1,112 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif; 
-    background-color: #fff;
-}
-   
-.menu {
-  padding: 10px;
-  margin: 0;
-  list-style: none;
-  border-radius: 4px;
   background-color: #FFFFFF;
-   /*  Making ul.menu a Flex container  */
-  display: flex;
+  font-family: Raleway, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-.menu > .item:not(:last-child) {
-  margin-right: 10px;
+.page-header {
+  background-color: #ffffff;
 }
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+/* identical to box height */
 
-.menu .link {
-  display: block;
-  padding: 10px;
-  border-radius: 4px;
+  letter-spacing: 0.03em;
+  text-decoration: none; 
+}
+.menu-nav a {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  color: black;
-  background-color: #fff;
+}
+.menu-nav a:hover {
+  color: #2196F3;
 }
 
-.menu .link:hover {
-  text-decoration: underline;
+.contacts-reference a {
+
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+   text-decoration: none;
+}
+.contacts-reference a:hover {
+  color: #2196F3;
+}
+/* services */
+.services {
+  background-color:#2F303A;
+}
+.services-decision {
+  color:#ffffff ;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.services-button {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  }
+  .services-button button:hover {
+    color: #2196F3;
+  }
+.feature-list h3 {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+}
+.feature-list p {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+.team-list h3 {
+color:#212121;
+
+}
+.team-list p {
+color: #757575;  
+
 }
