@@ -1,128 +1,52 @@
-:root {
-  --primary-text-color: rgba (0, 0, 0, 0.25);
-  --title-text-color: #212121;
-  --accent-color: #2196F3;
-  --primery-whitte-color:#ffffff;
-  --footer-bg-color:#2F303A;
-  --primery-grey-color:#757575;
-}
-body {
-  background-color: var(--primery-whitte-color);
-  font-family:Roboto, Raleway, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-} 
-:root {
-  --primary-text-color: rgba (0, 0, 0, 0.25);
-  --title-text-color: #212121;
-  --accent-color: #2196F3;
-  --primery-whitte-color:#ffffff;
-  --footer-bg-color:#2F303A;
-  --primery-grey-color:#757575;
+.body {
+  background-color: #E5E5E5;
+  color:#757575 ;
 }
 .list {
   list-style: none;
 }
-.decor-n {
-  text-decoration: none;
-}
-.page-header {
-}
-/* Lolo */
+/* Цвет основного текста #212121*/
+/* Вторичный цвкт текста #757575*/
+/* Активная ссылка #2196F3*/
+/* top line bg #FFFFFF*/
+/* Section bg #F5F4FA*/
+/* Footer bg #2F303A*/
+/* г. Киев, пр-т Леси Украинки, 26 #FFFFFF*/
+
+/* Navigation  */
 .logo {
-  color:var(--accent-color);
-  font-family:Raleway;
-  text-decoration: none;
+color:#2196F3 ;
 }
-.logo:hover,.logo:focus  {
-  color: var(--accent-color);
+.logo:hover, .logo:focus {
+  color: #212121;
 }
-.color-logo-header {
-  color:var(--title-text-color);
+/* Site-nav */
+.site-nav .link {
+  color: #212121;
 }
-.color-logo-footer {
-   color:var(--primery-whitte-color);
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196F3;
 }
-.item a {
-  color: var(--title-text-color);
-  
-  text-decoration: none;
+/* Contacts selection */
+.contacts-reference .item {
+  color: #757575;
 }
-.item a:hover,.item a:focus {
-  color: var(--accent-color);
+.contacts-reference .item:hover,
+.contacts-reference .item:focus{
+  color: #2196F3;
 }
-/* contacts selection */        
-.contacts-reference a {
-  color:var(--primery-grey-color);
-   text-decoration: none;
+/* Services */
+.services {
+  color:#FFFFFF;
+  background-color: #2F303A;
 }
-.contacts-reference a:hover,
-.contacts-reference a:focus,
-.link-address:hover,
-.link-address:focus {
-  color: var(--accent-color);
-}
- /* Services */
-}
-.services-button {
-  background-color:#2F303A;
-  color:var(--primery-whitte-color);
-  }
-.services-button:hover, 
-.services-button:focus {
-  background-color:var(--accent-color);
-} 
 
-.feature-list h3 {
-  color:var(--title-text-color);
+/* Section*/
+.section .section-title
+ {
+  color: #212121;
 }
-.feature-list p {
-  color: var(--primery-grey-color);
-   
-}
-/* our team */
-.team {
-  color: var(--title-text-color);
-  
-}
-.team-list h3 {
-  color:var(--title-text-color);
-}
-.team-list p {
-  color: var(--primery-whitte-color);
-}
-/* footer */
-.page-footer {
-  background-color:var(--footer-bg-color) ;
-}
-.link-address {
-  color:var(--primery-whitte-color);
-   
-}
-            
-/* filters buttons */
-.filters button {
-  color:var ;
-  
-}
-.filters button:hover,
-.filters button:focus {
-  background-color:var(--accent-color);
-  color:var(--primery-whitte-color);
 
-}
-/* Button */
-.button {
-  color: var(--title-text-color);
-  background-color: var(--primery-whitte-color);
-}
-.button.primary {
-  color: var(--primery-whitte-color);
-  background-color: var(--footer-bg-color);
- .button.seconadary:hover     
 
-}
-button.seconadary {
-  color: var(--primery-whitte-color);
-  background-color: var(--accent-color);
-}
+
