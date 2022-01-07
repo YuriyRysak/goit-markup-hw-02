@@ -16,7 +16,7 @@
           /* г. Киев, пр-т Леси Украинки, 26 #FFFFFF*/
   body {
     background-color: var(--primery-whitte-color);
-    font-family:Roboto, Raleway, Arial, Helvetica, sans-serif;
+    font-family:Roboto, Raleway, sans-serif;
     font-size: 14px;
     line-height: 1.5;
   } 
@@ -44,6 +44,7 @@
   /* Navigation */
   .site-nav .link{
     color:var(--primary-text-color);
+    text-decoration: none;
 
   }
   .site-nav .link:hover,
@@ -132,11 +133,12 @@
   }
   /* Buttons */          
   /* filters buttons */
-    .button {
+  .button {
     color:var(--primary-text-color);
     background-color:var(--body-bg-color);
+    cursor: pointer;
   }
-  .button.primary {
+    .button.primary {
     background-color: var(--accent-color);
     color: var(--top-line-bg);
   } 
@@ -148,6 +150,7 @@
   .button.secondary {
     color:var(--primary-text-color);
     background-color:var(--filter-bg-color);
+    
   }
   .button.secondary:hover,
   .button.secondary:focus {
